@@ -1,0 +1,29 @@
+.settings_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: end;
+    margin: 3rem;
+}
+
+.step_loading{
+    display: flex;
+    gap: 1rem;
+}
+
+.workspace{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+}
+
+.guide{
+    display: flex;
+    justify-content: center;
+}

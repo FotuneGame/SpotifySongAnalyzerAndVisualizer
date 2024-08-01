@@ -1,0 +1,20 @@
+input[type="range"]{
+    accent-color: var(--accent-color);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background: var(--accent-color);
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}

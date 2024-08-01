@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    --background-dark: #222222;
+    --accent-color: #FFFF00;
+    --accent-color-hover: #9c9c00;
+    --accent-color-active: #616100;
+    background: var(--background-dark);
+}

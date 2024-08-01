@@ -1,0 +1,8 @@
+.input_text{
+    color: white;
+    background: transparent;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+}
